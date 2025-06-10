@@ -1,0 +1,14 @@
+.movie-card{
+    width: 120px;
+    display: flex;
+    flex-flow: column;
+    background-color: #fd93b5;
+    padding: 10px;
+}
+
+.movie-card img{
+    width: 100%;
+    height: 80px;
+ object-fit: cover;
+    margin-bottom: 10px;
+}

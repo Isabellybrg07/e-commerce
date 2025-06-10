@@ -15,13 +15,14 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>
 
-export const Red: Story = {
+export const Default: Story = {
     args: {
         product: {
             title: 'modelo',
-            imageSrc: '',
-            Preço: 'R$15,00'
+            imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL841pfh6XKMr4TQbvPF1gr9gyqOwgKangYg&s',
+            price: 15.00,
 
-        }
+        },
+        rotate: true,
     },
 };
