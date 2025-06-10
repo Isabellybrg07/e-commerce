@@ -1,0 +1,20 @@
+:root {
+ --pink1-color:#FF66C4;
+ --pink2-color:#FF86C0;
+ --pink3-color:#FF91BD;
+--pink4-color: #FF0D5A;
+--pink5-color: #F00044;
+--pink6-color: #FF2160;
+--pink7-color: #FF1472;
+--pink8-color: #FF173E;
+--red1-color:  #7B0000;
+--white-color:  #FFFF;
+--black-color:  #000;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    
+}
