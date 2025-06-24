@@ -10,8 +10,28 @@
     justify-content: center;
 }
 
+.header{
+    background-color: #FF66C4;
+    width: 1317px;
+    height: 300px;
+    margin-bottom: 626px;
 
-.auth-layout > img {
-    max-width: 80%;
-    max-height: 35vh;
+    
+     display: flex;
+    flex-flow: column;
+    align-items: center;
+     justify-content: space-between;
+    color: #DF0052;
+}
+.header > h1 {
+    font-size: 100px;
+    margin: 0px 0px 100px 400px;
+}
+
+.header > img {
+
+    max-height: 210px;
+    width: 210px;
+ margin: 30px 100px 0px 0px;
+    
 }
