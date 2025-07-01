@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 
 import "./index.css";
+import Button from "../../components/Button";
 
 const AuthLayout = () => {
   return (
@@ -16,7 +17,10 @@ const AuthLayout = () => {
           </div>
           <Outlet />
         </div>
+<div>
+ <Button/>
 
+</div>
       </div>
     </div>
   );
