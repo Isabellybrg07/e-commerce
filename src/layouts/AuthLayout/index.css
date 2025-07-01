@@ -1,8 +1,8 @@
 .auth-layout {
-      background-position: center;
+    background-position: center;
 
     min-height: 100dvh;
-   
+
 
     display: flex;
     flex-flow: column;
@@ -10,28 +10,61 @@
     justify-content: center;
 }
 
-.header{
+.header {
     background-color: #FF66C4;
-    width: 1317px;
+    width: 1380px;
     height: 300px;
-    margin-bottom: 626px;
 
-    
-     display: flex;
-    flex-flow: column;
+
+
+    display: flex;
+
     align-items: center;
-     justify-content: space-between;
+    justify-content: center;
     color: #DF0052;
 }
-.header > h1 {
+
+.header>h1 {
     font-size: 100px;
-    margin: 0px 0px 100px 400px;
+
+
 }
 
-.header > img {
+.header>img {
 
-    max-height: 210px;
-    width: 210px;
- margin: 30px 100px 0px 0px;
-    
+    max-height: 300px;
+    width: 300px;
+    padding-left: 100px;
+
+}
+
+.body1 {
+    background-color: #FF86C0;
+    width: 1180px;
+    height: 1700px;
+    justify-content: center;
+    align-items: center;
+    padding: 280px;
+    margin-left: 450px;
+}
+
+.l1 {
+    background-color: #00000033;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.l2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #61000078;
+    color: aliceblue;
+    width: 248px;
+    height: 165px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 80px;
+    margin-left: 140px;
 }

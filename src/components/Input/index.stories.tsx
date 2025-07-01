@@ -19,6 +19,9 @@ export const Red: Story = {
             <Input>
  
              </Input>
+
+
+           
             
         )
 
