@@ -1,3 +1,4 @@
+import {  InputHTMLAttributes } from 'react';
 import './index.css'
 
 type InputProps = {
@@ -7,7 +8,8 @@ type InputProps = {
     onChange?: (value: string) => void;
     value?: string;
     label?: string;
-};
+
+}& InputHTMLAttributes<HTMLInputElement>;
 
 const Input = ({
     placeholder,
@@ -15,12 +17,15 @@ const Input = ({
     readOnly,
     onChange,
     value,
-    label
+    label,
+    className,
+    ...props
 }: InputProps) => {
   return (
-    <label className='yf-input'>
+    <label className={'yf-input ' + className}>
         <span>{label}</span>
         <input
+        {...props}
             placeholder={placeholder}
             disabled={disabled}
             readOnly={readOnly}

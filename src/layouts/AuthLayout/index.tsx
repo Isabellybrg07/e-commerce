@@ -14,13 +14,11 @@ const AuthLayout = () => {
         <div className="l1">
           <div className="l2">
             <h2>Dados <br />  do <br /> Usuário</h2>
-          </div>
-          <Outlet />
+          </div >
+          <div className="form1"> <Outlet /></div>
+         
         </div>
-<div>
- <Button/>
 
-</div>
       </div>
     </div>
   );

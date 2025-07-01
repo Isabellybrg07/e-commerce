@@ -1,4 +1,6 @@
 .btn {
-    background-color: var(--red1-color);
- 
+    background-color: #5900008f;
+ width: 115px;
+ height: 28px;
+ border-radius: 10px;
 }
