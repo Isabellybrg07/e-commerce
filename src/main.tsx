@@ -6,7 +6,12 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import AuthLayout from "./layouts/AuthLayout";
 import AppLayout from "./layouts/AppLayout";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
+import User from "./pages/User";
+import Adress from "./pages/Adress";
+import Buy from "./pages/Buy";
+import Card from "./pages/Card";
+
+
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -14,7 +19,10 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route path="auth" element={<AuthLayout />}>
           <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
+          <Route path="user" element={<User />} />
+          <Route path="adress" element={<Adress/>} />
+          <Route path="buy" element={<Buy/>} />
+          <Route path="card" element={<Card/>} />
         </Route>
 
         <Route index element={<AppLayout />} />

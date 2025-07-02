@@ -1,11 +1,10 @@
 import Input from "../../components/Input";
 import Button from "../../components/Button"
 
-const Register = () => {
+const User = () => {
   return (
     <div className="login-form">
- 
-      <Input className="input-2-columns" placeholder="Usuário" />
+      <Input className="input-2-columns"  placeholder="Usuário" />
       <Input className="input-2-columns" placeholder="Nome completo" />
 
        <Input placeholder="Celular" />
@@ -16,7 +15,6 @@ const Register = () => {
        <Input className="input-2-columns" placeholder="E-mail" />
        <Input className="input-2-columns" placeholder="Senha" />
        <Input className="input-2-columns" placeholder=" Confirmar senha" />
-       
   <Button >Salvar dados</Button>
   <Button> Próxima</Button>
 
@@ -26,4 +24,4 @@ const Register = () => {
 };
 
 
-export default Register
+export default User
