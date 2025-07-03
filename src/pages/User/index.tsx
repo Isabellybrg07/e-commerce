@@ -12,19 +12,29 @@ const User = () => {
       <div className="userl2">
             <h2>Dados <br />  do <br /> Usuário</h2>
           </div >
+          <label htmlFor="">Nome de usuário</label>
       <Input className="input-2-columns"  placeholder="Usuário" />
+          <label htmlFor="">Nome Completo</label>
+      
       <Input className="input-2-columns" placeholder="Nome completo" />
+          <label htmlFor="">Celular</label>
 
-       <Input placeholder="Celular" />
-       <Input className="date" type="date" placeholder="Data de Nascimento"/>
+       <Input placeholder="xx xxxxx-xxxx" />
+          <label htmlFor="">Data de nascimento</label>
+
+       <Input className="date" type="date" placeholder="dd/mm/aa"/>
 
 
+<label htmlFor="">Email</label>
+       <Input className="input-2-columns" placeholder="User@gmail.com" />
+          <label htmlFor="">Senha</label>
 
-       <Input className="input-2-columns" placeholder="E-mail" />
-       <Input className="input-2-columns" placeholder="Senha" />
-       <Input className="input-2-columns" placeholder=" Confirmar senha" />
+       <Input className="input-2-columns" placeholder="*******" />
+          <label htmlFor="">Confirmar senha</label>
+
+       <Input className="input-2-columns" placeholder=" ********" />
   <Button >Salvar dados</Button>
-  <Button> Próxima</Button>
+  <Button> Entrar</Button>
 </div>
 
     </div>

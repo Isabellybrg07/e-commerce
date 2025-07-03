@@ -6,11 +6,14 @@ const Login = () => {
     <div className="login-form">
        <div className="l1">
       <h1>Bem vindos!</h1>
-       <Input className="input-2-columns" placeholder="E-mail" />
-       <Input className="input-2-columns" placeholder="Senha" />
+      <label htmlFor="" className="">Email</label>
+       <Input className="input-2-columns" placeholder="User@gmail.com" />
+       <label htmlFor="Senha">Senha</label>
+       <Input className="input-2-columns" placeholder="*******" />
        <a href="#" className="link-danger  LinkSenha">Esqueci minha senha</a>
      
   <Button> Entrar</Button>
+   <Button> Criar conta</Button>
 </div>
     </div>  
     

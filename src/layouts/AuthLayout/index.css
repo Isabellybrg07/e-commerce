@@ -57,7 +57,7 @@
     border-radius: 20px;
     width: 450px;
     height:900px;
- margin-left:260px;
+ margin-left:210px;
     margin-top: 200px;
 }
 
@@ -69,7 +69,43 @@
     border-radius: 20px;
     width: 450px;
     height:900px;
- margin-left:260px;
+ margin-left:210px;
+    margin-top: 200px;
+}
+
+.adressl1 {
+    background-color: #00000033;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 450px;
+    height:900px;
+ margin-left:210px;
+    margin-top: 200px;
+}
+
+.cardl1 {
+    background-color: #00000033;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 450px;
+    height:900px;
+ margin-left:210px;
+    margin-top: 200px;
+}
+
+.buyl1 {
+    background-color: #00000033;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 450px;
+    height:900px;
+ margin-left:210px;
     margin-top: 200px;
 }
 
@@ -84,7 +120,7 @@
     border-radius: 20px;
     padding-left: 40px;
     margin-bottom: 60px;
-    margin-left: 50px;
+    margin-left: 30px;
 
 }
 
@@ -94,12 +130,57 @@
     background-color: #61000078;
     color: aliceblue;
     width: 130px;
-    height: 110px;
+    height: 90px;
     font-size: 30px;
     border-radius: 20px;
     padding-left: 40px;
     margin-bottom: 60px;
-    margin-left: 50px;
+    margin-left: 30px;
+
+}
+
+.adressl2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #61000078;
+    color: aliceblue;
+    width: 130px;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 40px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+
+}
+
+.cardl2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #61000078;
+    color: aliceblue;
+    width: 130px;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 40px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+
+}
+
+.buyl2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #61000078;
+    color: aliceblue;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 70px;
+    margin-bottom: 60px;
+    margin-left: 30px;
 
 }
 
@@ -111,7 +192,6 @@
 }
 .form1 > .login-form{
     display: flex;
-  grid-template-columns: 1fr 1fr;
   flex-flow: column;
   gap: 20px;
   margin-left: 50px;
@@ -119,7 +199,27 @@
 
 .form1 > .user-form{
     display: flex;
-  grid-template-columns: 1fr 1fr;
+  flex-flow: column;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.form1 > .adress-form{
+    display: flex;
+  flex-flow: column;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.form1 > .card-form{
+    display: flex;
+  flex-flow: column;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.form1 > .buy-form{
+    display: flex;
   flex-flow: column;
   gap: 20px;
   margin-left: 50px;
@@ -130,28 +230,91 @@
     
 }
 
-.login-form > button{
+.l1 > button{
     margin-left: 70px;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 30px;
+     margin-top: 20px;
     
 }
-.user-form > Button{
+.userl1 > Button{
     margin-left: 70px;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 30px;
+    margin-top: 20px;
     
 }
 
-.login-form > h1 {
-    font-size: 50px;
-    margin-left: 60px;
+.adressl1 > Button{
+    margin-left: 70px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+.cardl1 > Button{
+    margin-left: 70px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+.buyl1 > Button{
+    margin-left: 70px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+.l1 > h1 {
+    font-size: 80px;
+    margin-left: 40px;
     margin-bottom: 80px;
 }
 
-.user-form > h1 {
+.userl1 > h1 {
     font-size: 50px;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-bottom: 80px;
 }
 
+.adressl1 > h1 {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.cardl1 > h1 {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.buyl1 > h1 {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.l1 > label{
+font-size: 30px;
+}
+
+.userl1 > label{
+font-size: 30px;
+}
+
+.adressl1 > label{
+font-size: 30px;
+}
+
+.cardl1 > label{
+font-size: 30px;
+}
+
+.buyl1 > label{
+font-size: 30px;
+}
