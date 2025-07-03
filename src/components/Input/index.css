@@ -10,14 +10,14 @@
 }
 
 .yf-input input {
-    border: 1px solid;
+    border: none;
     border-radius: 10px;
     height: 29px;
 width: 260px;
-    background: none;
+    background-color: rgba(240, 248, 255, 0.178);
     padding-left: 20px;
 }
 
 .yf-input input::placeholder {
-    color: #1011114b;
+    color: #1011113c;
 }
