@@ -5,8 +5,6 @@ const User = () => {
   return (
   
 
-
-
     <div className="user-form">
        <div className="userl1">
       <div className="userl2">
@@ -22,7 +20,7 @@ const User = () => {
        <Input placeholder="xx xxxxx-xxxx" />
           <label htmlFor="">Data de nascimento</label>
 
-       <Input className="date" type="date" placeholder="dd/mm/aa"/>
+       <Input className="date" type="date" required placeholder="dd/mm/aa"/>
 
 
 <label htmlFor="">Email</label>

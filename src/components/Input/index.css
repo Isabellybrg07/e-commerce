@@ -21,3 +21,8 @@ width: 260px;
 .yf-input input::placeholder {
     color: #1011113c;
 }
+
+.yf-input input:invalid::-webkit-datetime-edit {
+color:#1011113c;
+
+}
