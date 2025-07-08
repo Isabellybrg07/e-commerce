@@ -11,7 +11,7 @@ type viaCepInfo = {
   localidade: string
 }
 
-
+const Adress=()=>{
   const [cep, setCep] = useState("");
   const [cepInfo, setCepInfo] = useState<viaCepInfo | null>(null)
 
@@ -28,34 +28,32 @@ type viaCepInfo = {
     getCepInfo();
   }, [cep])
   return (
-
-
-
-
     <div className="adress-form">
       <div className="adressl1">
         <div className="adressl2">
           <h2>Dados <br />  do <br /> Endereço</h2>
         </div >
-        <label htmlFor="">Núm. para contato</label>
-        <Input type="number" label="cep" placeholder="xx xxxxx-xxxx" />
-
-        <label htmlFor="">CEP</label>
+       
+      
+      <Input 
+      label="Núm. para contato"
+      />
+       
         <Input
            onChange={(value) => setCep(value as string)} 
-           label="cep" 
+           label="CEP" 
            />
 
-        <label htmlFor="">Cidade</label>
+     
         <Input 
-        label="cidade"
+        label="Cidade"
         value={cepInfo?.localidade}
         />
 
-        <label htmlFor="">Estado</label>
+      
         <Input  
         label="Estado"
-        value={cepInfo?.UF}
+        value={cepInfo?.uf}
         />
 
         
@@ -81,7 +79,7 @@ value={cepInfo?.bairro}
     </div>
 
   )
-};
 
 
+}
 export default Adress

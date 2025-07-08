@@ -103,7 +103,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 450px;
+    width: 350px;
     height:900px;
  margin-left:210px;
     margin-top: 200px;
@@ -179,8 +179,8 @@
     font-size: 30px;
     border-radius: 20px;
     padding-left: 70px;
-    margin-bottom: 60px;
-    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-left: 0px;
 
 }
 
@@ -293,11 +293,7 @@
     margin-bottom: 80px;
 }
 
-.buyl1 > h1 {
-    font-size: 50px;
-    margin-left: 40px;
-    margin-bottom: 80px;
-}
+
 
 .l1 > label{
 font-size: 30px;
@@ -315,6 +311,7 @@ font-size: 30px;
 font-size: 30px;
 }
 
-.buyl1 > label{
-font-size: 30px;
+
+.buy3 > .movie-card{
+width: 350px;
 }

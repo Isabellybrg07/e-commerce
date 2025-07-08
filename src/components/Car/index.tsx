@@ -1,9 +1,10 @@
 
 
-import { CSSProperties, useMemo } from 'react';
 import './index.css'
+import Button from '../Button';
 
-export type CardProps = {
+
+export type CarProps = {
     product: {
         title: string;
          imageSrc: string;
@@ -13,39 +14,37 @@ export type CardProps = {
     rotate?: boolean;
 }
 
-const Card = ({
+const Car = ({
     product,
    
 
-} : CardProps)=> {
+} : CarProps)=> {
     const{
         title,
         imageSrc,
         price,
+       
 
     } = product;
-    const randomRotation = useMemo (()=>{
-        return (Math.random() * 10 - 5).toFixed(2) + 'deg'
-    }, [])
+   
 
 
   return (
-        <div className='movie-card'
-        style={{
-            '--rotation': rotate 
-            ?randomRotation
-            : '0deg',
-        } as CSSProperties}>
+        <div className='movie-car'>
             <img src={imageSrc} alt="" />
            
-                <>
-                    <span>{title}</span>
-                    <span>
+                <div className='title'>
+                    <span className='modelo'>{title}</span>
+                    <span className='price'>
                         {price}
                     </span>
-                </>
-            
-        </div>
+                   </div>
+                   <div className='bt-buy'>
+                   <Button>Escolher cor </Button>
+                    <span><i className="bi bi-trash trash btn "></i></span>
+                </div>
+            </div>
+       
     )
 }
-export default Card
+export default Car
