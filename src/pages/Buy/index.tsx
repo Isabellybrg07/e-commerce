@@ -1,5 +1,5 @@
 import Car from "../../components/Car"
-import Input from "../../components/Input"
+
 
 
 
@@ -26,17 +26,19 @@ const Buy = () => {
         <div className="check-buy">
           <h3>Formas de pagamento</h3>
           <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label className="form-check-label" htmlFor="defaultCheck1">
+             <label className="form-check-label" htmlFor="defaultCheck1">
                 Default checkbox
               </label>
+            <input className="form-check-input" type="checkbox" value="" id="defaultCheck1">
+             
             </input>
           </div>
           <div className="form-check">
-            <input className="form-check-input" type="checkbox" value="" id="defaultCheck2">
-              <label className="form-check-label" htmlFor="defaultCheck2">
+             <label className="form-check-label" htmlFor="defaultCheck2">
                 Disabled checkbox
               </label>
+            <input className="form-check-input" type="checkbox" value="" id="defaultCheck2">
+             
             </input>
           </div>
         </div>
