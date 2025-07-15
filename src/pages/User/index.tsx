@@ -20,13 +20,18 @@ const navigate = useNavigate()
 
 
       }
-    await fetch('http://localhost:8000/auth/user', {
+   const request = await fetch('http://localhost:8000/auth/user', {
          method: 'post',
          body: JSON.stringify(body),
          headers: {
             "Content-Type": "application/json"
          }
       });
+      
+if(!request.ok){
+   return;
+}
+
 navigate('/auth/login')
 
    }

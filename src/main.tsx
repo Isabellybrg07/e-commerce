@@ -10,11 +10,13 @@ import User from "./pages/User";
 import Adress from "./pages/Adress";
 import Buy from "./pages/Buy";
 import Card from "./pages/Card";
+import AuthProvider from "./contexts/AuthContext";
 
 
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
+    <AuthProvider>
     <BrowserRouter>
       <Routes>
         <Route path="auth" element={<AuthLayout />}>
@@ -28,5 +30,6 @@ createRoot(document.getElementById("root")!).render(
         <Route index element={<AppLayout />} />
       </Routes>
     </BrowserRouter>
+    </AuthProvider>
   </StrictMode>
 );
