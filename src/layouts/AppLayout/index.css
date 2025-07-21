@@ -13,7 +13,7 @@
 .header {
     background-color: #FF66C4;
     width: 100%;
-    height: 250px;
+    height: 200px;
 
 
 
@@ -25,7 +25,8 @@
 }
 
 .header>h1 {
-    font-size: 70px;
+    font-size: 50px;
+    margin-top: 20px;
 
 
 }
@@ -33,18 +34,125 @@
 .header>img {
 
     max-height: 300px;
-    width: 120px;
-    padding-left: 20px;
+    width: 140px;
+    padding-left: 10px;
 
 }
 
 .body1 {
     background-color: #FF86C0;
     width: 100%;
-    height: 1700px;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    
 
-  
+
+
+}
+
+.services {
+    display: flex;
+    align-items: top;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+
+}
+
+
+.cart {
+    background: none;
+    border: none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #A30000;
+}
+
+
+.topic {
+
+    margin-left: 28px;
+    text-decoration: none;
+    color: rgb(219, 224, 230);
+    font-size: 30px;
+
+
+}
+
+#vestidos button {
+
+    color: aliceblue;
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    margin-left: 50px;
+    background: none;
+}
+
+
+#vestidos h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #A30000;
+    margin-top: 20px;
+}
+
+#macaquinhos button {
+
+    color: aliceblue;
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    margin-left: 50px;
+    background: none;
+}
+
+
+#macaquinhos h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #A30000;
+    margin-top: 60px;
+}
+
+#conjuntos button {
+
+    color: aliceblue;
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    margin-left: 50px;
+    background: none;
+}
+
+
+#conjuntos h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #A30000;
+    margin-top: 60px;
+}
+
+#longos button {
+
+    color: aliceblue;
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    margin-left: 50px;
+    background: none;
+}
+
+
+#longos h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #A30000;
+    margin-top: 60px;
 }

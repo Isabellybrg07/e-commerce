@@ -2,8 +2,9 @@
     width: 120px;
     display: flex;
     flex-flow: column;
-    background-color: #fd93b5;
+    background-color: #ff0d5a7a;
     padding: 10px;
+    
 }
 
 .movie-card img{
@@ -12,3 +13,4 @@
  object-fit: cover;
     margin-bottom: 10px;
 }
+

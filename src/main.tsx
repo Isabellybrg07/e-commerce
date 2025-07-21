@@ -10,6 +10,7 @@ import User from "./pages/User";
 import Adress from "./pages/Adress";
 import Buy from "./pages/Buy";
 import Card from "./pages/Card";
+import Product from "./pages/Product"
 import AuthProvider from "./contexts/AuthContext";
 
 
@@ -25,6 +26,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="adress" element={<Adress/>} />
           <Route path="buy" element={<Buy/>} />
           <Route path="card" element={<Card/>} />
+          <Route path="product" element={<Product />} />
         </Route>
 
         <Route index element={<AppLayout />} />

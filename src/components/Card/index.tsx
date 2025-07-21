@@ -13,7 +13,7 @@ export type CardProps = {
 
 const Card = ({
     product,
-    rotate = false,
+    rotate = true,
 
 } : CardProps)=> {
     const{
