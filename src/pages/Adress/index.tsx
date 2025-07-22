@@ -1,6 +1,7 @@
 import Input from "../../components/Input";
 import Button from "../../components/Button"
 import { useEffect, useState } from "react";
+import "./index.css"
 
 type viaCepInfo = {
   bairro: string;

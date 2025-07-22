@@ -2,6 +2,7 @@ import Input from "../../components/Input";
 import Button from "../../components/Button"
 import { FormEventHandler } from "react";
 import { useNavigate } from "react-router";
+import "./index.css"
 
 const User = () => {
 const navigate = useNavigate()

@@ -1,0 +1,53 @@
+.adressl1 {
+    background-color: #00000033;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.adressl2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #61000078;
+    color: aliceblue;
+    width: 130px;
+    height: 110px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 40px;
+    margin-bottom: 60px;
+
+
+}
+
+.form1>.adress-form {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+  
+}
+
+
+.adressl1>Button {
+    margin-left: 70px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+
+.adressl1>label {
+    font-size: 30px;
+}
+
+
+
+.adressl1>h1 {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}

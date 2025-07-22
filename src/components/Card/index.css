@@ -4,6 +4,7 @@
     flex-flow: column;
     background-color: #ff0d5a7a;
     padding: 10px;
+    rotate: var(--rotation);
     
 }
 

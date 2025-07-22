@@ -1,4 +1,5 @@
 import Car from "../../components/Car"
+import "./index.css"
 
 
 

@@ -3,13 +3,14 @@ import Button from "../../components/Button"
 import { FormEventHandler, useContext } from "react";
 import { useNavigate } from "react-router";
 import { AuthContext } from "../../contexts/AuthContext";
+import "./index.css"
 
 const Login = () => {
 
    const navigate = useNavigate()
 
    const {
-      
+
       signIn
    } = useContext(AuthContext)
 
@@ -26,11 +27,11 @@ const Login = () => {
 
       }
 
- await signIn(body)
- navigate('/')
-    
+      await signIn(body)
+      navigate('/')
 
-   
+
+
    }
 
 

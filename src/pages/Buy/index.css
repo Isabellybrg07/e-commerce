@@ -1,0 +1,46 @@
+.buyl1 {
+    background-color: #00000033;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+  
+}
+
+.buyl2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #61000078;
+    color: aliceblue;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 70px;
+    margin-bottom: 40px;
+  
+
+}
+
+
+.form1>.buy-form {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.buyl1>Button {
+    margin-left: 70px;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+.buy3>.movie-card {
+    width: 350px;
+}

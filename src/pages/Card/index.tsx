@@ -1,5 +1,6 @@
 import Input from "../../components/Input";
 import Button from "../../components/Button"
+import "./index.css"
 
 const Card = () => {
   return (
@@ -24,7 +25,7 @@ const Card = () => {
 
 
   <Button> Salvar</Button>
-   <Button> Adicionar cartão</Button>
+   <Button> Adicionar</Button>
 </div>
     </div>  
     
