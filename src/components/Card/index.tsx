@@ -39,7 +39,7 @@ const Card = ({
                 <>
                     <span>{title}</span>
                     <span>
-                        {price}
+                       R${price.toFixed(2)}
                     </span>
                 </>
             

@@ -75,7 +75,7 @@
 
 .topic {
 
-    margin-left: 28px;
+    margin-left: 10px;
     text-decoration: none;
     color: rgb(219, 224, 230);
     font-size: 30px;
@@ -89,7 +89,7 @@
     margin-top: 50px;
     font-size: 20px;
     border: none;
-    margin-left: 50px;
+    margin-left: 35px;
     background: none;
 }
 
@@ -108,7 +108,7 @@
     margin-top: 50px;
     font-size: 20px;
     border: none;
-    margin-left: 50px;
+    margin-left: 35px;
     background: none;
 }
 
@@ -127,7 +127,7 @@
     margin-top: 50px;
     font-size: 20px;
     border: none;
-    margin-left: 50px;
+    margin-left: 35px;
     background: none;
 }
 
@@ -146,7 +146,7 @@
     margin-top: 50px;
     font-size: 20px;
     border: none;
-    margin-left: 50px;
+    margin-left: 35px;
     background: none;
 }
 
