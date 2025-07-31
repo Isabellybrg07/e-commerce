@@ -12,6 +12,7 @@ import Buy from "./pages/Buy";
 import Card from "./pages/Card";
 import Product from "./pages/Product"
 import AuthProvider from "./contexts/AuthContext";
+import AdminLayout from "./layouts/AdminLayout";
 
 
 
@@ -28,6 +29,10 @@ createRoot(document.getElementById("root")!).render(
           <Route path="card" element={<Card/>} />
           <Route path="product" element={<Product />} />
         </Route>
+
+        
+        <Route path="iaki-adm" element={<AdminLayout/>}/>
+        
 
         <Route index element={<AppLayout />} />
       </Routes>
