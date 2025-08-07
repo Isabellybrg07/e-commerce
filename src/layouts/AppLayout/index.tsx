@@ -35,7 +35,7 @@ const AppLayout = () => {
         <div id="vestidos">
           <h1>Vestidos</h1>
           <div className="cards">
-
+<a href="/auth/product">
             <button>
               <Card product={{
                 title: "Vestido raglã",
@@ -43,7 +43,7 @@ const AppLayout = () => {
                 price: 15.00
               }} ></Card>
             </button>
-
+</a>
 
             <button>
               <Card product={{
