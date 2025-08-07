@@ -1,7 +1,15 @@
 
+import { useParams } from "react-router";
 import "./index.css"
 
+
 const Product = () => {
+    const {
+        id
+    } = useParams()
+    console.log(id);
+
+
     return (
         <div className="product">
             <div className="imgProduct">
@@ -27,8 +35,25 @@ const Product = () => {
             </div>
 
             <div className="infoProduct">
-                <h1>Vestido aba</h1>
+                <h1 >Vestido aba</h1>
                 <h2 className="text-muted">R$ 15,00</h2>
+
+
+                   <div className="descrição">
+                <h3 >Descrição</h3>
+                <p>...</p>
+                </div>
+
+
+
+
+                <button className="bi bi-cart2 btnprod"></button>
+
+
+
+                <button className="bi bi-cart2 btnprod"></button>
+
+
 
             </div>
 

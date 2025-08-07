@@ -35,7 +35,7 @@ const AppLayout = () => {
         <div id="vestidos">
           <h1>Vestidos</h1>
           <div className="cards">
-<a href="/auth/product">
+<a href="/auth/product/">
             <button>
               <Card product={{
                 title: "Vestido raglã",

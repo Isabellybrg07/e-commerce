@@ -27,7 +27,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="adress" element={<Adress/>} />
           <Route path="buy" element={<Buy/>} />
           <Route path="card" element={<Card/>} />
-          <Route path="product" element={<Product />} />
+          <Route path="product/:id" element={<Product />} />
         </Route>
 
         

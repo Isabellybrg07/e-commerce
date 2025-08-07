@@ -18,7 +18,25 @@
 
 
 .infoProduct{
-    margin-left: 40px;
+    margin-left: 60px;
+  text-align: center;
+}
+
+.infoProduct > h1 {
+    font-size: 40px;
+}
+
+.infoProduct > h2 {
     font-size: 30px;
+    text-align: center;
+    color: rgb(255, 96, 144);
+}
+
+.btnprod{
+font-size:20px;
+background-color: #530007;
+border-radius: 40px;
+margin-left: 10px;
+color: aliceblue;
 }
 
